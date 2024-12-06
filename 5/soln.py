@@ -41,7 +41,6 @@ def part2(rules: tuple[str, str], updates: list[list[int]]):
                 break
         middle_sums += temp[len(temp) // 2]
 
-
     print(middle_sums)
 
 if __name__ == '__main__':
